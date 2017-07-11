@@ -21,18 +21,3 @@ class CustomAnimationController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 }
-extension CustomAnimationController : UIViewControllerAnimatedTransitioning
-{
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        return 2.0
-    }
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
-       
-    }
-}
-//extension CustomAnimationController: UIViewControllerContextTransitioning{
-//    func viewController(forKey key: UITransitionContextViewControllerKey) -> UIViewController? {
-//        return nil
-//    }
-//    
-//}

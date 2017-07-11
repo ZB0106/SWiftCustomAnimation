@@ -19,8 +19,10 @@ class ViewController: UIViewController {
 //        toView.backgroundColor = UIColor.red
 //        fromView.backgroundColor = UIColor.blue
 //        self.view .addSubview(toView)
-            self .setupBubbleView()
-        self.navigationController?.delegate = self
+        self .setupBubbleView()
+        self.navigationController?.delegate = ZB_NavigationAnimationManager.shared
+        self.tabBarController?.delegate = ZB_NavigationAnimationManager.shared
+        print((self.tabBarController?.view)!)
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,14 +30,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
-}
-extension ViewController:UINavigationControllerDelegate{
-    public func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        
-        print("hahahhaha")
-        return nil
-    }
 
 }
 extension ViewController{

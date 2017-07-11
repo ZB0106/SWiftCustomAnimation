@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21208F651F05F78500A0ADE1 /* UINavigationController+CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21208F641F05F78500A0ADE1 /* UINavigationController+CustomAnimation.swift */; };
+		21208F691F05F8AA00A0ADE1 /* ZB_SWiftAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21208F681F05F8AA00A0ADE1 /* ZB_SWiftAnimationType.swift */; };
+		21208F6B1F061D1100A0ADE1 /* ZB_PushAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21208F6A1F061D1100A0ADE1 /* ZB_PushAnimation.swift */; };
+		21208F6D1F0622B500A0ADE1 /* ZB_NavigationAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21208F6C1F0622B500A0ADE1 /* ZB_NavigationAnimationManager.swift */; };
 		212E878E1F038DEB0020ED24 /* ZB_BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E878D1F038DEB0020ED24 /* ZB_BubbleView.swift */; };
 		2140E4871F03734E003DECF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2140E4861F03734E003DECF3 /* AppDelegate.swift */; };
 		2140E4891F03734E003DECF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2140E4881F03734E003DECF3 /* ViewController.swift */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21208F641F05F78500A0ADE1 /* UINavigationController+CustomAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+CustomAnimation.swift"; sourceTree = "<group>"; };
+		21208F681F05F8AA00A0ADE1 /* ZB_SWiftAnimationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZB_SWiftAnimationType.swift; sourceTree = "<group>"; };
+		21208F6A1F061D1100A0ADE1 /* ZB_PushAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZB_PushAnimation.swift; sourceTree = "<group>"; };
+		21208F6C1F0622B500A0ADE1 /* ZB_NavigationAnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZB_NavigationAnimationManager.swift; sourceTree = "<group>"; };
 		212E878D1F038DEB0020ED24 /* ZB_BubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZB_BubbleView.swift; sourceTree = "<group>"; };
 		2140E4831F03734E003DECF3 /* SWiftAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWiftAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2140E4861F03734E003DECF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +113,9 @@
 		2140E4851F03734E003DECF3 /* SWiftAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				21208F681F05F8AA00A0ADE1 /* ZB_SWiftAnimationType.swift */,
+				215280D91F0506C400D84757 /* UINavigationControllerExtension.swift */,
+				21208F641F05F78500A0ADE1 /* UINavigationController+CustomAnimation.swift */,
 				215280D71F04F6F900D84757 /* CustomAnimationController.swift */,
 				212E878D1F038DEB0020ED24 /* ZB_BubbleView.swift */,
 				2140E4861F03734E003DECF3 /* AppDelegate.swift */,
@@ -114,7 +125,8 @@
 				2140E48F1F03734E003DECF3 /* LaunchScreen.storyboard */,
 				2140E4921F03734E003DECF3 /* Info.plist */,
 				21525C7C1F04C3AC007696FA /* 动画总结 */,
-				215280D91F0506C400D84757 /* UINavigationControllerExtension.swift */,
+				21208F6A1F061D1100A0ADE1 /* ZB_PushAnimation.swift */,
+				21208F6C1F0622B500A0ADE1 /* ZB_NavigationAnimationManager.swift */,
 			);
 			path = SWiftAnimation;
 			sourceTree = "<group>";
@@ -274,7 +286,11 @@
 			files = (
 				215280DA1F0506C400D84757 /* UINavigationControllerExtension.swift in Sources */,
 				2140E4891F03734E003DECF3 /* ViewController.swift in Sources */,
+				21208F651F05F78500A0ADE1 /* UINavigationController+CustomAnimation.swift in Sources */,
+				21208F691F05F8AA00A0ADE1 /* ZB_SWiftAnimationType.swift in Sources */,
+				21208F6B1F061D1100A0ADE1 /* ZB_PushAnimation.swift in Sources */,
 				215280D81F04F6F900D84757 /* CustomAnimationController.swift in Sources */,
+				21208F6D1F0622B500A0ADE1 /* ZB_NavigationAnimationManager.swift in Sources */,
 				212E878E1F038DEB0020ED24 /* ZB_BubbleView.swift in Sources */,
 				2140E4871F03734E003DECF3 /* AppDelegate.swift in Sources */,
 			);

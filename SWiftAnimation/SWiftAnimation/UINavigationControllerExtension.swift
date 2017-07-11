@@ -8,11 +8,3 @@
 
 import Foundation
 import UIKit
-
-extension UINavigationController:UINavigationControllerDelegate{
-    public func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        
-        print("hahahhaha")
-        return nil
-    }
-}
